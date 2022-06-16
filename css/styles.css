@@ -1,7 +1,56 @@
-p {
-    border-radius: 25px;
-    background: #66d7e5;
+html    {
+    background: url(../images/Space.PNG) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1  {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+}
+
+h2  {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+}
+
+#passion    {
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 12px;
+    background: #aba6f3;
     padding: 10px;
-    width: 1000px;
+    width: device-width;
+    height: 75px;
+}
+#aboutme   {
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 12px;
+    background: #aba6f3;
+    padding: 10px;
+    width: device-width;
     height: 150px;
+}
+
+#contact    {
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    border-radius: 12px;
+    background: #aba6f3;
+    padding: 10px;
+    width: device-width;
+    height: 80px;
+
+}
+
+#space  {
+    border-radius: 35px;
+    background-position: center;
+    background-repeat: repeat;
+    object-fit: cover;
+    padding: 20px;
+    width: 175px;
+    height: 400px;
+}
+
+#title {
+    color: white;
 }
